@@ -33,7 +33,9 @@
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">MY PORTFOLIO</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="images/IMG_9162.JPG">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" style="width: 100px;
+        height: 111px;
+    " src="images/IMG_9162.JPG">
 
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -74,7 +76,8 @@
         <div class="subheading mb-5">Rajarajeshwari Nagar · Bangalore, 560098 · 9663451110 ·
           <a href="mailto:gowdarakesh413@gmail.com">gowdarakesh413@gmail.com</a>
         </div>
-        <p class="mb-5">“Highly motivated and detail-oriented web developer. Proficient in HTML, CSS, JavaScript and Bootstrap, with a strong understanding of web design principles..</p>
+        <p class="mb-5">“Highly motivated and detail-oriented web developer. Proficient in HTML, CSS, JavaScript and
+          Bootstrap, with a strong understanding of web design principles..</p>
         <ul class="list-inline list-social-icons mb-0">
           <li class="list-inline-item" name="facebook" alt="facebook">
             <a href="https://www.facebook.com/rakeshgowda.rakesh.56/">
@@ -100,9 +103,9 @@
               </span>
             </a>
           </li>
-          
-              </span>
-            </a>
+
+          </span>
+          </a>
           </li>
         </ul>
       </div>
@@ -121,10 +124,10 @@
               streamlined cloud solution. User generated content in real-time will have multiple touchpoints for
               offshoring.</p>
           </div>
-          
+
         </div>
 
-       
+
 
       </div>
 
@@ -270,12 +273,13 @@
                 <label for="comments">Comments:</label>
               </td>
               <td>
-                <textarea id="comments" name="comments" rows="4" required></textarea>
+                <!-- <textarea id="comments" name="comments" rows="4" required></textarea>-->
+                <input type="text" id="comment" name="comment">
               </td>
             </tr>
             <tr>
               <td><label for="dropdown">How did you hear:</label>
-              <td><select id="dropdown" name="wheredidyouhear">
+              <td><select class="drpdn" id="dropdown" name="wheredidyouhear">
                   <option value="Facebook">Facebook</option>
                   <option value="Instagram">Instagram</option>
                   <option value="Twitter">Twitter</option>
@@ -285,11 +289,11 @@
             </tr>
           </tbody>
         </table>
-        <button type="submit">Submit</button>
+        <button class="btn btn-primary btnstyle" type="submit">Submit</button>
       </form>
     </div>
   </div>
-  <button id="openModalBtn">Open Form</button>
+  <button class="btn btn-primary btnstyle" id="openModalBtn" style="float: right;">Open Form</button>
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
