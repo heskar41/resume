@@ -24,7 +24,7 @@
 
   /* Close button style */
   .closeModel {
-    color: #aaa;
+    color: #af2d2d;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -32,7 +32,7 @@
 
   .closeModel:hover,
   .closeModel:focus {
-    color: black;
+    color: rgb(64, 4, 121);
     text-decoration: none;
     cursor: pointer;
   }
@@ -43,6 +43,6 @@
   }
 
   .drpdn {
-    width: 80%;
-    box-shadow: 1px 1px 1px 1px;
+    width: 100%;
+    /* box-shadow: 1px 1px 1px 1px; */
   }
